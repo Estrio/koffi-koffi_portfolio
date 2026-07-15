@@ -1,0 +1,29 @@
+:root {
+    /* Brand Colors */
+    --primary:#6F4E37;
+    --primary-dark:#4B3621;
+    --secondary:#C4A484;
+
+    --background:#F8F5F2;
+    --surface:#FFFFFF;
+
+    --text:#2F2F2F;
+    --text-light:#777777;
+
+    --border:#E7E2DC;
+
+    --success:#4CAF50;
+
+    /* Container */
+    --container:1200px;
+
+    /* Radius */
+    --radius:16px;
+
+    /* Shadow */
+    --shadow:0 15px 40px rgba(0,0,0,.88);
+
+    /* Transition */
+    --transition:.3s ease;
+
+}
