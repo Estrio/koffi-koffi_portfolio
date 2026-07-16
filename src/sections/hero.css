@@ -80,3 +80,13 @@
     color:white;
 }
 
+.hero-image img{
+    width: 100%;
+    border-radius: 50%;
+    outline: var(--primary) solid 5px;
+}
+
+.hero-image img:hover{
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}

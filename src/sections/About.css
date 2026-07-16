@@ -1,0 +1,36 @@
+.about {
+    background: white;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items:center;
+}
+
+.about-image img{
+    border-radius: 25px;
+    box-shadow: var(--shadow);
+}
+
+.about-image img:hover{
+    transform: scale(1.1);
+    transition: var(--transition);
+}
+
+.about-content p{
+    color: var(--text-light);
+    line-height: 1.9;
+    margin-bottom: 22px;
+}
+
+.about-stats{
+    display: flex;
+    gap:40px;
+    margin-top: 40px;
+}
+
+.stat span{
+    color: var(--text-light)
+}
