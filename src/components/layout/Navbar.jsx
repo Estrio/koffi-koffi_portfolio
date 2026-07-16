@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./Navbar.css";
 
-import logo from "../../assets/logo/koffi_logo.png";
+import logo from "../../assets/logo/koffi_icon.png";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -24,7 +24,9 @@ function Navbar() {
             <div className="container navbar-content">
 
                 <div className="logo">
-                    <img src={logo} alt="Koffi Koffi" />
+                    <a href="#home">
+                        <img src={logo} alt="Koffi Koffi" />
+                        </a>
                 </div>
 
                 <nav className={menuOpen ? "nav active" : "nav"}>

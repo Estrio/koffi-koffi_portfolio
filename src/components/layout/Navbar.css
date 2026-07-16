@@ -32,7 +32,7 @@
 
 .logo img{
 
-    width:170px;
+    width:80px;
 }
 
 .nav{
@@ -54,7 +54,15 @@
 .nav a:hover{
 
     color:var(--primary);
+    text-decoration:underline;
 }
+
+.nav a:active{
+
+    color:var(--primary);
+    text-decoration:underline;
+}
+
 
 .cta-btn{
 
