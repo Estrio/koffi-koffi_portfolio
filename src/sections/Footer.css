@@ -1,0 +1,36 @@
+.footer{
+    background: #2F2F2F;
+    color: white;
+    text-align: center;
+    padding:60px 20px;
+}
+
+.footer h2{
+    margin-bottom: 15px;
+}
+
+.footer p{
+    color: #CCCCCC;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-link a{
+    transition: .3s;
+}
+
+.footer-link a:hover{
+    color: var(--secondary);
+}
+
+.copyright{
+    font-size: .9rem;
+    color: #888;
+}

@@ -6,6 +6,7 @@ import Portfolio from "./sections/Portfolio";
 import Process from "./sections/Process";
 import WhyChoose from "./sections/WhyChoose";
 import Contact from "./sections/Contact";
+import Footer from "./sections/Footer"
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <Process/>
             <WhyChoose />
             <Contact />
+            <Footer />
         </> 
     );
 }
