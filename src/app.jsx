@@ -5,6 +5,7 @@ import Services from "./sections/Services"
 import Portfolio from "./sections/Portfolio";
 import Process from "./sections/Process";
 import WhyChoose from "./sections/WhyChoose";
+import Contact from "./sections/Contact";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Portfolio/>
             <Process/>
             <WhyChoose />
+            <Contact />
         </> 
     );
 }
