@@ -18,7 +18,7 @@ const steps = [
         description:
             "We create wireframes and user-focused designs before development begins."
     },
-
+ 
     {
         icon: <FaCode />,
         title: "03, Development",
