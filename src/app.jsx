@@ -7,12 +7,15 @@ import Process from "./sections/Process";
 import WhyChoose from "./sections/WhyChoose";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer"
+import TechStack from "./sections/TechStack";
+
 
 function App() {
     return (
         <>
             <Navbar />
             <Hero />
+            <TechStack />
             <About/>
             <Services/>
             <Portfolio/>
