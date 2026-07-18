@@ -1,18 +1,16 @@
-:root {
-    /* Brand Colors */
-    --primary:#6F4E37;
-    --primary-dark:#4B3621;
-    --secondary:#C4A484;
+:root{
 
-    --background:#F8F5F2;
-    --surface:#FFFFFF;
+    --espresso:#3B241A;
+    --coffee:#6F4E37;
+    --latte:#C89F7A;
+    --cream:#F8F5F2;
 
-    --text:#2F2F2F;
-    --text-light:#777777;
+    --accent:#A9745B;
 
-    --border:#E7E2DC;
+    --text:#2E2E2E;
+    --text-light:#6D6D6D;
 
-    --success:#4CAF50;
+    --glass:rgba(255,255,255,.55);
 
     /* Container */
     --container:1200px;
