@@ -55,25 +55,3 @@ section{
     font-size:2.8rem;
     margin-bottom:2rem;
 }
-
-.primary-btn{
-
-    padding:15px 32px;
-
-    background:var(--primary);
-
-    color:white;
-
-    border-radius:50px;
-
-    transition:var(--transition);
-
-    font-weight:600;
-}
-
-.primary-btn:hover{
-
-    background:var(--primary-dark);
-
-    transform:translateY(-3px);
-}

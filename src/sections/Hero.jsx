@@ -1,58 +1,62 @@
-import Container from "../components/layout/Container";
-import Button from "../components/ui/Button";
-
 import "./Hero.css";
-
-import coffee from "../assets/logo/koffi_logo.png";
 
 function Hero() {
     return (
         <section className="hero" id="home">
-            <Container>
 
-                <div className="hero-content">
+            <div className="hero-bg"></div>
 
-                    <div className="hero-text">
+            <div className="container">
 
-                        <span className="hero-tag">
-                            ☕ BREWING DIGITAL SOLUTIONS
-                        </span>
+                <div className="hero-wrapper">
 
-                        <h1>
-                            We Turn Coffee
-                            <br />
-                            Into Clean Code.
-                        </h1>
+                    <span className="hero-badge">
+                        ☕ Brewing Digital Solutions
+                    </span>
 
-                        <p>
-                            Koffi Koffi crafts modern websites,
-                            software, and mobile applications that
-                            help businesses automate, grow, and
-                            stand out in today's digital world.
-                        </p>
+                    <h1>
+                        We Build Powerful
+                        <br />
+                        Digital Experiences.
+                    </h1>
 
-                        <div className="hero-buttons">
-                            <Button>Start Your Project</Button>
+                    <p>
+                        Custom websites, desktop software,
+                        mobile applications, and business
+                        automation designed for modern companies.
+                    </p>
 
-                            <button className="outline-btn">
-                                View Portfolio
-                            </button>
-                        </div>
+                    <div className="hero-buttons">
+
+                        <button className="primary-btn">
+                            Start Your Project
+                        </button>
+
+                        <button className="secondary-btn">
+                            View Projects
+                        </button>
 
                     </div>
 
-                    <div className="hero-image">
+                    <div className="tech-card">
 
-                        <img
-                            src={coffee}
-                            alt="Coffee"
-                        />
+                        <h4>Built With</h4>
+
+                        <div className="tech-list">
+
+                            <span>React</span>
+                            <span>Electron</span>
+                            <span>Python</span>
+                            <span>Firebase</span>
+
+                        </div>
 
                     </div>
 
                 </div>
 
-            </Container>
+            </div>
+
         </section>
     );
 }
